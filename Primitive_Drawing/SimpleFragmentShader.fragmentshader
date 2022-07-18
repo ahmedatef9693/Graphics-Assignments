@@ -1,0 +1,14 @@
+#version 330 core
+
+
+// Ouput data
+out vec3 color;
+in vec3 col;
+void main()
+{
+
+	// we set the color of each fragment to red.
+	color = vec3(1,0,1);
+     col=color;
+
+}
